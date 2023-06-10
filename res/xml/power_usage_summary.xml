@@ -64,6 +64,13 @@
         android:title="@string/battery_light_title"
         settings:controller="com.android.settings.notification.BatteryLightPreferenceController"/>
 
+    <!-- Charging control -->
+    <Preference
+        android:key="charging_control"
+        android:title="@string/charging_control_title"
+        android:fragment="com.android.settings.lineage.health.ChargingControlSettings"
+        settings:controller="com.android.settings.lineage.health.ChargingControlPreferenceController" />
+
     <SwitchPreference
         android:key="battery_percentage"
         android:title="@string/battery_percentage"
